@@ -1,5 +1,23 @@
 # joingate
 
+<!-- ⬡ 3D-UPGRADE v1 by Mayank Bhaskar -->
+<div align="center">
+
+![joingate — 3D](assets/3d-hero.svg)
+
+**made by [Mayank Bhaskar](https://github.com/qtjg)** · ![lang](https://img.shields.io/badge/lang-TypeScript-38bdf8?style=flat&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/qtjg/joingate?style=flat&labelColor=0d1117&color=38bdf8)
+
+### 🧊 3D View
+
+![joingate — isometric stack](assets/3d-stack.svg)
+
+*Floating isometric render — layers hover, data particles stream, shine sweeps.*
+
+</div>
+
+---
+🩺 **New tool — `repo-pulse`**: instant git pulse (28-day heat bars, hot files, contributors). Run: `node tools/repo-pulse.mjs`
+
 **One-time invite links, member gating and kick automation for Telegram groups & channels.**
 
 [![CI](https://github.com/qtjg/joingate/actions/workflows/ci.yml/badge.svg)](https://github.com/qtjg/joingate/actions/workflows/ci.yml)
