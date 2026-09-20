@@ -1,14 +1,17 @@
 {
   "name": "joingate",
   "version": "0.1.0",
-  "description": "One-time invite links, member gating and kick automation for Telegram groups & channels — zero dependencies, any JS runtime.",
+  "description": "One-time invite links, member gating and kick automation for Telegram groups & channels \u2014 zero dependencies, any JS runtime.",
   "license": "MIT",
   "author": {
     "name": "qtjg",
     "email": "317509829+qtjg@users.noreply.github.com",
     "url": "https://github.com/qtjg"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/qtjg/joingate.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qtjg/joingate.git"
+  },
   "bugs": "https://github.com/qtjg/joingate/issues",
   "homepage": "https://github.com/qtjg/joingate#readme",
   "keywords": [
@@ -23,7 +26,9 @@
     "typescript"
   ],
   "type": "module",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -35,7 +40,11 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && node scripts/postbuild.mjs",
     "test": "bun test",
@@ -44,6 +53,6 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.1",
-    "typescript": "^5.7.0"
+    "typescript": "^7.0.2"
   }
 }
